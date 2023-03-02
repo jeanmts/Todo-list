@@ -1,5 +1,5 @@
 .container-header {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #4a4a4a;
   width: 100vw;
   height: 280px;
   display: flex;
@@ -7,7 +7,7 @@
   flex-direction: space-between;
 }
 .title-todo {
-  color: #00d8ff;
+  color: #fff;
   font-size: 42px;
 }
 .img-logo {

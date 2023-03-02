@@ -1,6 +1,8 @@
 .imgIconDel {
   width: 30px;
   cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
 }
 .container-tasks {
   width: 800px;
