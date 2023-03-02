@@ -1,0 +1,31 @@
+.container-header {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100vw;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  flex-direction: space-between;
+}
+.title-todo {
+  color: #00d8ff;
+  font-size: 42px;
+}
+.img-logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+@media (max-width: 780px) {
+  .container-header {
+    margin: 0;
+    display: flex;
+    width: 900px;
+  }
+
+  .title-todo {
+    font-size: 32px;
+  }
+  .img-logo {
+    width: 30px;
+  }
+}

@@ -1,0 +1,38 @@
+.imgIconDel {
+  width: 30px;
+  cursor: pointer;
+}
+.container-tasks {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-li-task {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+.li-card {
+  list-style: none;
+  width: 100px;
+  font-family: "courier new";
+}
+@media (max-width: 780px) {
+  .imgIconDel {
+    width: 20px;
+  }
+  .container-tasks {
+    width: 400px;
+  }
+  .container-li-task {
+    width: 400px;
+  }
+  .li-card {
+    width: 50px;
+  }
+}
