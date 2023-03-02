@@ -85,3 +85,29 @@
     margin-top: 80px;
   }
 }
+@media (max-width: 380px) {
+  .container-input-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .input-main {
+    width: 300px;
+    height: 30px;
+  }
+  .btn-addTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .container-task {
+    margin-top: 80px;
+  }
+}

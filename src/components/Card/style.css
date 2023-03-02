@@ -37,3 +37,15 @@
     width: 50px;
   }
 }
+
+@media (max-width: 440px) {
+  .container-tasks {
+    width: 200px;
+  }
+  .container-li-task {
+    width: 80vw;
+  }
+  .li-card {
+    width: 25px;
+  }
+}

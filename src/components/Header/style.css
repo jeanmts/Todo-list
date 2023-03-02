@@ -36,3 +36,11 @@
     width: 26px;
   }
 }
+@media (max-width: 380px) {
+  .title-todo {
+    font-size: 22px;
+  }
+  .img-logo {
+    width: 26px;
+  }
+}
