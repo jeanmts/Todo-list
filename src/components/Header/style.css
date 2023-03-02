@@ -19,7 +19,6 @@
   .container-header {
     margin: 0;
     display: flex;
-    width: 900px;
   }
 
   .title-todo {
@@ -27,5 +26,13 @@
   }
   .img-logo {
     width: 30px;
+  }
+}
+@media (max-width: 440px) {
+  .title-todo {
+    font-size: 22px;
+  }
+  .img-logo {
+    width: 26px;
   }
 }

@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   background-color: #791b72;
-  overflow: auto;
 }
 .container-input-task {
   position: absolute;
@@ -18,7 +17,6 @@
 .input-main {
   width: 400px;
   height: 51px;
-  padding-left: 5px;
 }
 .btn-addTask {
   width: 100px;
@@ -36,7 +34,6 @@
   border: none;
   background-color: #fff;
   height: 50px;
-  margin-left: 5px;
   text-align: center;
   width: 100px;
   cursor: pointer;
@@ -45,16 +42,46 @@
 }
 
 @media (max-width: 780px) {
-  .container-main {
-    width: 900px;
+  .input-main {
+    width: 300px;
+    height: 30px;
+    border: 0;
+  }
+  .container-input-task {
+    position: absolute;
+    top: 260px;
+    display: flex;
+    align-items: center;
+  }
+  .btn-addTask {
+    width: 55px;
+    height: 25px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 440px) {
+  .container-input-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
   }
   .input-main {
     width: 300px;
     height: 30px;
   }
   .btn-addTask {
-    width: 55px;
-    height: 25px;
-    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .container-task {
+    margin-top: 80px;
   }
 }
